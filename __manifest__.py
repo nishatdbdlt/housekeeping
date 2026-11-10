@@ -1,0 +1,20 @@
+{
+    'name': 'RMG Housekeeping',
+    'version': '18.0.1.0.0',
+    'category': 'Operations',
+    'summary': 'Simple housekeeping checklists for garment (RMG) factories',
+    'description': 'Pick an area, tap All OK, mark only the problems. Issues are created automatically.',
+    'author': 'Custom',
+    'license': 'LGPL-3',
+    'depends': ['base', 'mail'],
+    'data': [
+        'security/security.xml',
+        'security/ir.model.access.csv',
+        'data/hk_data.xml',
+        'data/hk_templates.xml',
+        'views/hk_views.xml',
+        'views/hk_menus.xml',
+    ],
+    'application': True,
+    'installable': True,
+}

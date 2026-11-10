@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acc_area_user,area user,model_rmg_hk_area,group_hk_user,1,0,0,0
+acc_area_mgr,area manager,model_rmg_hk_area,group_hk_manager,1,1,1,1
+acc_tpl_user,template user,model_rmg_hk_template,group_hk_user,1,0,0,0
+acc_tpl_mgr,template manager,model_rmg_hk_template,group_hk_manager,1,1,1,1
+acc_item_user,template item user,model_rmg_hk_template_item,group_hk_user,1,0,0,0
+acc_item_mgr,template item manager,model_rmg_hk_template_item,group_hk_manager,1,1,1,1
+acc_insp_user,inspection user,model_rmg_hk_inspection,group_hk_user,1,1,1,0
+acc_insp_mgr,inspection manager,model_rmg_hk_inspection,group_hk_manager,1,1,1,1
+acc_line_user,inspection line user,model_rmg_hk_inspection_line,group_hk_user,1,1,1,0
+acc_line_mgr,inspection line manager,model_rmg_hk_inspection_line,group_hk_manager,1,1,1,1
+acc_issue_user,issue user,model_rmg_hk_issue,group_hk_user,1,1,1,0
+acc_issue_mgr,issue manager,model_rmg_hk_issue,group_hk_manager,1,1,1,1

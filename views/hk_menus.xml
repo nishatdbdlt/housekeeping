@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_hk_root" name="Housekeeping" sequence="60"
+              web_icon="rmg_housekeeping,static/description/icon.png"
+              groups="group_hk_user"/>
+    <menuitem id="menu_hk_inspection" name="Inspections" parent="menu_hk_root" action="action_hk_inspection" sequence="10"/>
+    <menuitem id="menu_hk_issue" name="Issues" parent="menu_hk_root" action="action_hk_issue" sequence="20"/>
+    <menuitem id="menu_hk_config" name="Configuration" parent="menu_hk_root" sequence="90" groups="group_hk_manager"/>
+    <menuitem id="menu_hk_area" name="Areas" parent="menu_hk_config" action="action_hk_area" sequence="10"/>
+    <menuitem id="menu_hk_template" name="Checklists" parent="menu_hk_config" action="action_hk_template" sequence="20"/>
+</odoo>
